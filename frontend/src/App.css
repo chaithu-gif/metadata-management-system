@@ -1,0 +1,132 @@
+.app {
+  min-height: 100vh;
+  background: #f5f7fb;
+}
+
+.main-layout {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  padding: 30px;
+}
+.sidebar {
+  width: 240px;
+  min-height: calc(100vh - 70px);
+  padding: 25px 15px;
+  background: #1e293b;
+}
+
+.sidebar h2 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar button {
+  padding: 12px;
+  border: none;
+  background: transparent;
+  color: white;
+  text-align: left;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sidebar button:hover {
+  background: #334155;
+}
+.dashboard-cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  min-width: 180px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: #475569;
+}
+
+.card p {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+.customer-page {
+  width: 100%;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.page-header h1 {
+  margin: 0;
+  color: #1e293b;
+}
+
+.page-header p {
+  margin-top: 6px;
+  color: #64748b;
+}
+
+.add-button {
+  padding: 11px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background: #1d4ed8;
+}
+
+.customer-table-container {
+  background: white;
+  border-radius: 12px;
+  overflow-x: auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customer-table th {
+  padding: 15px;
+  text-align: left;
+  background: #f8fafc;
+  color: #475569;
+  font-size: 14px;
+}
+
+.customer-table td {
+  padding: 15px;
+  border-top: 1px solid #e2e8f0;
+  color: #334155;
+}
+
+.customer-table tbody tr:hover {
+  background: #f8fafc;
+}
